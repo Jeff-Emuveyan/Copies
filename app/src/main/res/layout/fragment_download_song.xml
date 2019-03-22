@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments_Secondary.DownloadSongFragment">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:elevation ="5dp"
+            android:layout_alignParentTop="true">
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:text="Lets get the song clip she used...Default message"
+                    android:textColor="@color/pink"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+
+            <ru.dimorinny.floatingtextbutton.FloatingTextButton
+                android:id="@+id/getButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/linearLayout"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:floating_background_color="@color/colorPrimary"
+                app:floating_title="Get it"
+                app:floating_title_color="@android:color/white" />
+            <!--app:floating_icon="@drawable/ic_action_white_24dp"-->
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+
+                <ProgressBar
+                    android:id="@+id/progressBar4"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/loadingStatusTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fetching...0%..." />
+
+
+                <ru.dimorinny.floatingtextbutton.FloatingTextButton
+                    android:id="@+id/cancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    app:floating_background_color="@color/colorPrimary"
+                    app:floating_title="Cancel"
+                    app:floating_title_color="@android:color/white" />
+                <!--app:floating_icon="@drawable/ic_action_white_24dp"-->
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

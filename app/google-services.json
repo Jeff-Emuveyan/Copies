@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "823253839891",
+    "firebase_url": "https://copies-b6ded.firebaseio.com",
+    "project_id": "copies-b6ded",
+    "storage_bucket": "copies-b6ded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823253839891:android:13e7b7c2f43d8dae",
+        "android_client_info": {
+          "package_name": "state.bellogate_caliphate.jeffemuveyan.copies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823253839891-rr8t4nlm73er8gbh80lmep16h7bnjql6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtvyDgxdATxBvtt4oOf_JVfoFJaZXtRfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_time_line"
+        android:icon="@drawable/ic_filter_b_and_w_black_24dp"
+        android:title="Timeline" />
+
+
+    <item
+        android:id="@+id/navigation_post"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/ic_search_black"
+        android:title="Find" />
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+</menu>
